@@ -9,6 +9,11 @@ repos:
     -   id: double-quote-string-fixer
     -   id: name-tests-test
     -   id: requirements-txt-fixer
+    -   id: check_naming_convention
+        name: Check naming convention
+        entry: check_naming_convention.py
+        language: system
+        files: '\.py$'
 -   repo: https://github.com/asottile/setup-cfg-fmt
     rev: v2.5.0
     hooks:
