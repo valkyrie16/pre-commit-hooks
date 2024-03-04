@@ -1,6 +1,6 @@
 repos:
 -   repo: https://github.com/valkyrie16/pre-commit-hooks.git
-    rev: v4.5.0
+    rev: main
     hooks:
     -   id: trailing-whitespace
     -   id: end-of-file-fixer
