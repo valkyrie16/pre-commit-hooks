@@ -199,3 +199,8 @@
     language: python
     types: [text]
     stages: [commit, push, manual]
+-   id: check_naming_convention
+    name: Check naming convention
+    entry: check_naming_convention.py
+    language: system
+    files: '\.py$'
