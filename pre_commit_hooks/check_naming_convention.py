@@ -1,6 +1,8 @@
 from __future__ import annotations
 import re
 
+from pre_commit_hooks.util import cmd_output
+
 def check_naming_convention(files):
     for file_path in files:
         with open(file_path, 'r') as file:
