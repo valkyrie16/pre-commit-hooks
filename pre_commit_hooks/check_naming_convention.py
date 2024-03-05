@@ -1,3 +1,4 @@
+from __future__ import annotations
 import re
 
 def check_naming_convention(files):
